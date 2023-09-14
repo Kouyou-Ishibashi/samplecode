@@ -1,4 +1,3 @@
-
 // アプリで使用する定数の管理をします。
 // Androidで言うResourceのような役割を持っています。
 // constantフォルダによく格納するファイルは以下の通りです。
@@ -20,3 +19,12 @@
 // 基本的に文字列のハードコードはしない思想です。
 // urls.dart
 // アプリで使用するURLを定義します。
+
+// サンプルコード
+import 'package:flutter/material.dart';
+
+class AppColors {
+  static const Color primaryColor = Color(0xFF007BFF);
+  static const Color secondaryColor = Color(0xFF6C757D);
+  static const Color accentColor = Color(0xFFFFC107);
+}
